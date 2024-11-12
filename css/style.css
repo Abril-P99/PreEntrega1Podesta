@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #720e99;
 }
 
 ul {
@@ -57,6 +57,7 @@ ul {
 
 ul li {
     background-color: #f1f1f1;
+    color: #720e99;
     margin: 5px;
     padding: 10px;
     border-radius: 5px;

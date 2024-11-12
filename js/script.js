@@ -1,4 +1,4 @@
-// Función para verificar la edad
+// FUNCION PARA VERIFICAR EDAD
 function verificarEdad() {
     const edad = document.getElementById("edad").value;
     const resultadoEdad = document.getElementById("resultadoEdad");
@@ -15,12 +15,11 @@ function verificarEdad() {
     }
 }
 
-// Función para generar lista de números
+// FUNCION PARA GENERAR LISTA DE NUMEROS
 function generarLista() {
     const numero = document.getElementById("numero").value;
     const listaNumeros = document.getElementById("listaNumeros");
-    listaNumeros.innerHTML = ''; // Limpiar lista anterior
-
+    listaNumeros.innerHTML = ''; 
     if (numero > 0) {
         for (let i = 1; i <= numero; i++) {
             const li = document.createElement("li");
